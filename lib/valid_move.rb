@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(array, index)
-  
+
 x = position_taken?(array, index)
 if (index >= 0 && index < 9 && x == false)
   print "valid move"
@@ -16,5 +16,5 @@ def position_taken?(array, index)
   elsif (array[index] == "X" || array[index] == "O")
     x = true
   end
-    
+
 end
