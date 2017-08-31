@@ -6,7 +6,6 @@ if (x == false)
   return false
 end
 
-end
 
 end
 
